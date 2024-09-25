@@ -138,8 +138,11 @@ select
 from
 	employee
 where
-	dept_code ='d6' or dept_code = 'd8';
-    
+	-- dept_code ='d6' or dept_code = 'd8'
+	 dept_code in('d6','d8');
+     
+     
+     
 -- 13. 이씨성이 아닌 직원의 사번, 이름, 이메일주소 조회
 
 select
@@ -150,6 +153,18 @@ from
 	employee
 where
 	emp_name not like '이%';
+    
+    
+-- 14. j2 직급의 급여 200만원 이상 받는 직원이거나
+-- j7 직급인 직원의 이름,급여,직급코드 조회
 
+select
+	emp_name,
+    salary,
+    job_code
+from
+	employee
+where
+	job_code ='j2' and salary >= 2000000;
 
 

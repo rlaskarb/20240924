@@ -129,6 +129,7 @@ from
 where
  menu_price not between 10000 and 20000 ;
 
+
 -- like 연사자
 -- 메뉴테이블에서 이름과 가격 조회
 -- 단, 메뉴이름이 '마늘' 을 포함하고 있는 메뉴만 조회
