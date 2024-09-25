@@ -165,6 +165,18 @@ select
 from
 	employee
 where
-	job_code ='j2' and salary >= 2000000;
+	job_code = 'j7' or (job_code = 'j2' and salary >= 2000000) ;
+    
+    
+--   j7 직급이거나 j2 직급인 직원들 중
+-- 급여가 200만원 이상인 직원의 
+-- 이름,급여,직급콬드를 조회하세요
 
-
+select
+	emp_name,
+    salary,
+    job_code
+from
+	employee
+where
+	job_code in ('j7','j2') and (salary >= 2000000);
