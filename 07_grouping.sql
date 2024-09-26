@@ -6,7 +6,7 @@ use menudb;
 -- having 절은 group by 절과 함께 사용이 되며 
 -- 그룹에 대한 조건을 정의할 때 사용이 된다.
 
--- where 조건절 / having 조건절 차이이이이이이이 
+-- where 조건절 / having 조건절 차이 
 -- where 조건절의 경우
 -- 그룹화를 하기전 개별 행에 대한 조건을 적용하는 것
 
