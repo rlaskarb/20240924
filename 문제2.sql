@@ -23,7 +23,7 @@ from
     on ( emp.job_code = j.job_code)
     join 
     department d 
-    on (emp.DEPT_CODE = d.DEPT_ID)
+    on (emp.dept_code = d.dept_id)
     join
     location l
     on (d.location_id = l.local_code)
