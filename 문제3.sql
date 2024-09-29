@@ -112,7 +112,7 @@ select
 from
 	employee; -- 포기
     
-    
+-- 9번   
 -- EMPLOYEE 테이블에서 직원의 이름, 입사일, 근무년수를 조회
 -- 단, 근무년수는 현재년도 - 입사년도로 조회
 
@@ -123,7 +123,7 @@ select
 from
 	employee;
 
-
+-- 10번delete
 -- EMPLOYEE 테이블에서 사번이 홀수인 직원들의 정보 모두 조회 (mod)
 select
 	*
